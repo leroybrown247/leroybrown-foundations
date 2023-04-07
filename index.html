@@ -1,9 +1,68 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>Leroy Brown</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leroy Codes? Dev Academy Blog</title>
+
+    <!-- Loads the Font Awesome icon library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <!-- Sets the title of the web page and loads the Google Fonts 'IBM Plex Mono' and 'Montserrat' -->
+    <title>Flexbox Menu Bar</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Links the CSS file -->
+    <link href="index.css" rel="stylesheet" type="text/css">
+  </head>
+
   <body>
-    <h1>(Hello World!)</h1> 
-    <p> This is the beginning of my website home page.</p>
-    <p> It will eventually contain a list of links to all my blogs. </p>
+    <!-- Main navigation bar with a logo, menu items, and a LinkedIn icon -->
+    <nav class="menu">
+      <div class="logo">
+        <h2>LB</h2>
+      </div>
+
+      <div class="menu-items">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog/blog-home.html">Blog</a></li>
+          <li><a href="tech/tech-home.html">Tech</a></li>
+          <li><a href="core/core-home.html">Core</a></li>
+          <li><a href="more/more-home.html">More</a></li>
+          <li><a href="https://www.linkedin.com/in/leroybrown247/" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+    <!-- Page title and introduction paragraph -->
+    <h1>Leroy Codes?</h1>
+    <p>Welcome to Leroy Codes? If you're passionate about coding and are interested in following 
+      <br>the journey of a budding developer, you've come to the right place.
+      <br>
+      <br>So join me on this exciting journey and let's explore the exciting world of coding together!
+    </p>
+
+    <!-- Blog post section with a flex container -->
+    <div class="flex-container">
+      <section class="blog-posts">
+        <h2>Latest Blog Posts</h2>
+        <article>
+          <h3>Blog Post Title</h3>
+          <p>Blog post summary goes here.</p>
+        </article>
+        <article>
+          <h3>Blog Post Title</h3>
+          <p>Blog post summary goes here.</p>
+        </article>
+      </section>
+    </div>
   </body>
 </html>
