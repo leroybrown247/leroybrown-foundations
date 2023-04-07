@@ -19,9 +19,10 @@ h1 {
 
 /* Styles paragraph text with a font and size */
 p {
-    font-size: 20pt;
+    font-size: 15pt;
     font-family: 'IBM Plex Mono', monospace;
-    padding: 20px;
+    padding: 20px 40px 100px 40px;
+    color: #fff;
 }
 
 /* Styles the main navigation bar with a flexbox layout, background color, and text color */
@@ -108,4 +109,15 @@ nav a:hover {
     align-items: center;
     background-color: #85819c;
     width: 100%;
+}
+/* Hover animation */
+article a:hover {
+  background-color: #000000;
+  padding: 10px;
+}
+/* Styles for footer */
+footer {
+    color: #fff;
+    background-color: #000;
+    padding: 40px;
 }
