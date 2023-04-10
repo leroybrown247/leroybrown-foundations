@@ -111,12 +111,12 @@ nav a:hover {
   }
   
   .blog-box {
-    width: calc(50% - 10px);
+    width: calc(30% - 10px);
     margin-bottom: 20px;
   }
   
   .blog-box-img {
-    width: 50%;
+    width: 30%;
     height: auto;
     border-radius: 5px;
   }
