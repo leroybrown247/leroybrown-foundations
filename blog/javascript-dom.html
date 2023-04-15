@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Blog-JS Fundamentals</title>
+
+<!-- Loads the Font Awesome icon library -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+ <!-- Sets the title of the web page and loads the Google Fonts 'IBM Plex Mono' and 'Montserrat' -->
+ <title>Java Script & DOM</title>
+ <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <link href="blog.css" rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+     <!-- Main navigation bar with a logo, menu items, and a LinkedIn icon -->
+     <nav class="menu">
+      <div class="logo">
+      </div>
+
+      <div class="menu-items">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="https://www.linkedin.com/in/leroybrown247/" class="linkedin-icon"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+
+      <div class="menu-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+
+
+     <!-- Page title and introduction paragraph -->
+    <h1>Technical Blog - JS Fundamentals</h1>
+    <h3>Sprint 3 - tech - 15th of April 2023</h3>
+    
+    <h2>JavaScript and its relationship to HTML and CSS:</h2>
+
+    <p>
+        Kia ora! You might be curious about how JavaScript, HTML, and CSS work together to create beautiful and interactive websites. 
+        Let's break it down using one of my favourite takeout options “Fish and Chips”.
+        <br>
+        <br>
+        Okay so let's say you're building a website for a classic New Zealand fish and chips shop. To create this website, 
+        you'll need three key components: HTML, CSS, and JavaScript.
+        <br>
+        <br>
+        <img src="Javascript-dom images/Fish-and-chips-3-(1).png">
+        <br>
+        <br> 
+        HTML (Hypertext Markup Language) is like the foundation and structure of your fish and chips shop. 
+        It defines the layout and content of your website, such as headings, paragraphs, images, and links. 
+        For example, you might use HTML to create a header that says "Kia ora, welcome to our Kiwi Fish and Chips!" 
+        and to add a menu with the various items available for order.
+        <br>
+        <br>
+        CSS (Cascading Style Sheets) is like the paint and decorations of your fish and chips shop. 
+        It controls the appearance and styling of your website, such as colors, fonts, and spacing. 
+        With CSS, you can design the website to reflect the classic New Zealand vibe, perhaps by using the colors 
+        of the Kiwi flag (blue, red, and white) or featuring images of iconic NZ landscapes in the background.
+        <br>
+        <br>
+        JavaScript is like the friendly staff at your fish and chips shop who make everything run smoothly. 
+        It's a programming language that adds interactivity and dynamic content to your website. For example, 
+        you could use JavaScript to create an interactive menu that shows more information about each dish when a 
+        user hovers over it, or to add a form that lets customers place an order directly from the website.
+        <br>
+        <br>
+        In summary, HTML provides the structure and content of your website, CSS determines its appearance, 
+        and JavaScript adds interactivity and dynamic elements. Together, these three technologies work hand-in-hand 
+        to create a unique and engaging experience for visitors to your fish and chips shop website. 
+        Happy coding, and kia kaha!
+    </p>
+
+    <h2>Explain control flow and loops using an example process from everyday life:</h2>
+
+    
+    <p>
+        Kia ora! Let's explain control flow and loops using the example of making a flat white coffee, my favourite morning beverage.
+        <br>
+        <br>
+        Control flow refers to the order in which a program's instructions are executed. Conditional statements (like if-else) 
+        and loops (like for and while) are used to control this flow.
+        <br>
+        <br>
+        Suppose you want to make a flat white coffee for yourself and two friends, and you have enough milk and coffee beans.
+        Here's how control flow and loops might apply:
+        <br>
+        <br>
+        1. Check if the coffee machine is ready to use with a conditional statement:
+        <br>
+        <br>
+        <img src="Javascript-dom images/JS 1 (1).png">
+        <br>
+        <br>
+        2. If the coffee machine is ready, use a loop to make three flat white coffees:
+        <br>
+        <br>
+        <img src="Javascript-dom images/JS 2 (1).png">
+        <br>
+        <br>
+        In this example, we've used conditional statements and loops to control the flow of making flat white coffees. 
+        This demonstrates how programming concepts can be applied to everyday life in a simplified and familiar context. 
+        Happy coding, and enjoy your delicious flat whites!
+
+    </p>
+
+        <h2>Describe what the DOM is and an example of how you might interact with it:</h2>
+
+    <p>
+        Let us say you're making a flat white coffee, in your cafe kitchen. In this scenario, your coffee (the flat white) 
+        represents your website, the main ingredients (milk, coffee beans) are your HTML, the spices and extra ingredients 
+        (sugar, cocoa powder) are your CSS, and the utensils and cookware (coffee machine, milk frother) are your JavaScript.
+        <br>
+        <br>
+        Now, let's introduce the DOM. In this analogy, the DOM would be your cafe kitchen itself. It provides the space 
+        and tools that allow you to create and modify your coffee (the flat white). It's where you can access all the ingredients, 
+        utensils, and cookware to make adjustments and improvements to your creation.
+        <br>
+        <br>    
+        When interacting with the DOM, you're working in your kitchen to adjust the ingredients (HTML), spices (CSS), 
+        and using the utensils (JavaScript) to create your perfect flat white.
+        <br>
+        <br>
+        For example, you might use the DOM to:
+        <br>  
+        <br>
+        -Change the main ingredient (HTML) by switching the type of coffee bean.
+        <br>
+        <br>
+        -Add extra spices or ingredients (CSS) by sprinkling cocoa powder on top of the flat white.
+        <br>
+        <br>
+        -Use utensils (JavaScript) to froth the milk and create the ideal milk-to-espresso ratio.
+        <br>
+        <br>
+        -If something goes wrong, you can use the DOM (kitchen) to start over, adjust the recipe, or fix any issues.
+        <br>
+        <br>     
+        In summary, the DOM is like your cafe kitchen, providing access to the tools and space necessary to create and manipulate 
+        your dish (website) using HTML (main ingredients), CSS (spices and extra ingredients), and JavaScript (utensils and cookware).
+    </p>
+
+        <h2>Explain the difference between accessing data from arrays and objects:</h2>
+
+    <p>
+        Let's use a fish and chip shop analogy to explain the difference between accessing data from arrays and objects.
+        <br>
+        <br>
+        Think of an array as a queue of customers waiting to order fish and chips. Each customer is in a specific position (index)
+        in the queue:
+        <br>
+        <br>
+        <img src="Javascript-dom images/Arrays and Objects 1 (1).png">
+        <br>
+        <br>
+        To find out who's in a certain position, you'd use their index in the queue (starting from 0):
+        <br>
+        <br>
+        <img src="Javascript-dom images/Arrays and Objects 2 (1).png">
+        <br>
+        <br>
+        An object, on the other hand, is like the menu at the fish and chip shop, with items and their prices:
+        <br>
+        <br>
+        <img src="Javascript-dom images/Arrays and Objects 3 (1).png">
+        <br>
+        <br>
+        To find the price of an item, you'd use the item's name (key):
+        <br>
+        <br>
+        <img src="Javascript-dom images/Arrays and Objects 4 (1).png">
+        <br>
+        <br>
+        In summary, arrays are like customer queues, where you access elements using their position (index), 
+        while objects are like menus, where you access elements using their name (key).
+    </p>
+
+        <h2>Explain what functions are and why they are helpful:</h2>
+
+    <p>
+        Let's talk Functions in JavaScript are reusable blocks of code that perform specific tasks, helping you organize your code, 
+        reduce repetition, and simplify maintenance.
+
+        Imagine you're making an app for a New Zealand café to calculate the cost of a flat white order. You can create a function 
+        called ‘calculateFlatWhiteCost’:
+        <br>
+        <br>
+        <img src="Javascript-dom images/Functions 1 (1).png">
+        <br>
+        <br>    
+        Now, you can use this function to easily calculate the cost of any flat white order:
+        <br>
+        <br>    
+        <img src="Javascript-dom images/Functions 2 (1).png">
+        <br>
+        <br> 
+        Functions like calculateFlatWhiteCost make your code more efficient and easier to manage by allowing you to reuse 
+        and update it effortlessly.
+    </p>
+    
+    <footer>
+      <a href="../index.html">Home</a>
+      <p>© Copyright - Leroy Brown - 2023</p>
+      <p><a href="https://devacademy.co.nz/" target="_blank">Dev Academy Website</a></p>
+    </footer>
+
+  </body>
+</html>
