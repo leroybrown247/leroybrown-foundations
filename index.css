@@ -1,5 +1,5 @@
 body {
-    background-color: #6A6680;
+    background-color: #EBEBEB;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 15pt;
@@ -20,15 +20,15 @@ p {
     line-height: 1.5;
     font-family: 'IBM Plex Mono', monospace;
     padding: 20px 40px 20px 40px;
-    color: #fff;
+    color: #3A0CA3;
 }
 
 .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6A6680;
-    color: #fff;
+    background-color: #3A0CA3;
+    color: #3A0CA3;
     padding: 10px 10px 10px 10px;
 }
 
@@ -44,7 +44,7 @@ p {
 }
 
 .menu a {
-    color: #fff;
+    color: #3A0CA3;
     text-decoration: none;
     font-size: 30pt;
 
@@ -54,8 +54,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: #fff;
+    background-color: #04052E;
+    color: #EBEBEB;
     padding: 1rem;
 }
 
@@ -71,7 +71,6 @@ nav ul {
 }
 
 nav li {
-    background-color: #6A6680;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 40px;
@@ -79,13 +78,12 @@ nav li {
 }
 
 nav a {
-    color: #fff;
+    color: #3A0CA3;
     text-decoration: none;
 }
 
 nav a:hover {
-    color: black;
-    font-weight: bold;
+    color: #EBEBEB;
     text-decoration: underline;
 }
 
@@ -132,16 +130,16 @@ nav a:hover {
   }
 
   .blog-box a {
-    color: white;
-    background-color: #595672;
+    color: #EBEBEB;
+    background-color: #04052E;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
   }
 
   .blog-box a:hover {
-    color: #fff;
-    background-color: #000;
+    color: #EBEBEB;
+    background-color: #3A0CA3;
     
   }
   
@@ -149,14 +147,27 @@ nav a:hover {
     text-align: center;
     padding: 5px;
     margin: 40px 10px 40px 10px;
-    background-color: #595672;
+    background-color: #D6D6D6;
     border-radius: 5px;
 }
 
 footer {
-    color: #fff;
-    background-color: #000;
+    color: #EBEBEB;
+    background-color: #3A0CA3;
     padding: 40px;
+    text-decoration: none;
+}
+
+a:-webkit-any-link {
+  color: #EBEBEB; /* Change the link color */
+  text-decoration: none; /* Remove the underline */
+  cursor: pointer; /* Change the cursor style */
+}
+
+a:-webkit-any-link:hover {
+  color: #FF0000; /* Change the link color on hover */
+  text-decoration: underline; /* Add an underline on hover */
+  cursor: pointer; /* Change the cursor style on hover */
 }
 
 article {
