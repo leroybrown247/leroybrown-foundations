@@ -159,15 +159,15 @@ footer {
 }
 
 a:-webkit-any-link {
-  color: #EBEBEB; /* Change the link color */
-  text-decoration: none; /* Remove the underline */
-  cursor: pointer; /* Change the cursor style */
+  color: #FF0000; 
+  text-decoration: none; 
+  cursor: pointer; 
 }
 
 a:-webkit-any-link:hover {
-  color: #FF0000; /* Change the link color on hover */
-  text-decoration: underline; /* Add an underline on hover */
-  cursor: pointer; /* Change the cursor style on hover */
+  color: #FF0000; 
+  text-decoration: underline; 
+  cursor: pointer; 
 }
 
 article {
