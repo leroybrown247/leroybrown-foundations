@@ -131,7 +131,7 @@ nav a:hover {
 
   .blog-box a {
     color: #EBEBEB;
-    background-color: #04052E;
+    background-color: #3A0CA3;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -139,7 +139,8 @@ nav a:hover {
 
   .blog-box a:hover {
     color: #EBEBEB;
-    background-color: #3A0CA3;
+    background-color: #04052E;
+
     
   }
   
