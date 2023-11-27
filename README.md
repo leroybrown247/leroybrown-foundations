@@ -1,5 +1,5 @@
 # Kia ora (hello), My name is Leroy and this is the start of my Web Development journey.
-## I will be be taking a 15-week bootcamp at Dev Academy Aotearoa and I will be recording journey here.
+## I will be be taking a 15-week bootcamp at Dev Academy Aotearoa and I will be recording my journey here.
 ### leroybrown247.github.io
 
 <br>
