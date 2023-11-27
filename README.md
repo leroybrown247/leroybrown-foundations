@@ -1,18 +1,20 @@
 # Kia ora (hello), My name is Leroy and this is the start of my Web Development journey.
-## I will be be taking a 15-week bootcamp at Dev Academy Aotearoa and I will be recording my journey here.
-### leroybrown247.github.io
+
+### I will be be taking a 15-week bootcamp at Dev Academy Aotearoa and I will be recording my journey here.
 
 <br>
 
-> "He toa he whakaaro nui" - A brave person is one with big thoughts.
+> "He toa he whakaaro nui" - "A brave person is one with big thoughts".
 
-Hi, I'm Leroy Brown - a digital design and technology enthusiast based in Auckland. I bring a unique blend of strategic thinking and creative flair to my work, and I'm always looking for ways to push the boundaries of what's possible.
+<br>
+
+<strong>I am a digital design and technology enthusiast based in Auckland.</strong>  I bring a unique blend of strategic thinking and creative flair to my work, and I'm always looking for ways to push the boundaries of what's possible.
 
 My passion for technology led me to Dev Academy, where I'm currently honing my coding skills and absorbing as much knowledge as possible. I'm constantly seeking out new challenges and opportunities to expand my skillset, and I'm determined to use technology to create innovative solutions that improve people's lives.
 
 <br>
 
-## Code snippets and coding concepts I enjoyed and feel proud of. 
+### Code snippets and coding concepts I enjoyed and feel proud of. 
 
 ##### *09/04/23*
 
@@ -63,4 +65,4 @@ Blog post container
 
 <br>
 
-# More insights to come
+## More insights to come

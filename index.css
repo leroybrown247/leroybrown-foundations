@@ -102,12 +102,13 @@ nav a:hover {
   }
   
   .blog-box {
-    width: calc(30% - 10px);
+    width: calc(30% - 4px);
     margin-bottom: 20px;
+    background-color: lightcoral;
   }
   
   .blog-box-img {
-    width: 30%;
+    width: 50%;
     height: auto;
     border-radius: 5px;
     
